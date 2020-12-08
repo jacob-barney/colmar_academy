@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+/*navbar styling*/
+
+nav{
+    background-color: white;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    z-index: 1;
+}
+nav a{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;   
+ }
+ nav a span{
+     font-size: 1.5rem;
+     color: gray;
+ }
+ nav a span strong{
+     font-size: 1.5rem;
+     color: #303030;
+ }
+#link-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    }
+.flex-container-links{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    }
+.flex-item-nav{
+    list-style-type: none;
+    margin: 1rem;
+    }
+.flex-item-nav a{
+    text-decoration: none;
+    color: #303030;
+    }
+
+/*banner section styling*/
+
+#banner-section{
+    position: relative;
+    top: 4rem;
+    left: 0;
+    background-color: lightgrey;
+    height: auto;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+#banner-section img{  
+    height: auto;
+    width: 60%;
+    margin-right:1.5rem;
+}
+#banner-text-container{
+    height: auto;
+    width: 30%;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner-section h1{
+    height:fit-content; 
+    width: 100%;
+    font-size: 3rem;
+    color: #303030;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 7.5%;
+}
+#banner-section h3{
+    height: fit-content;
+    width: 100%;
+    font-size: 2rem;
+    color: #303030;
+    text-align: left;
+    margin-bottom: 7.5% 
+}
+#start-here{
+    height:3rem;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: #303030;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+
+
+
+
+
