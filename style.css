@@ -2,13 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
     font-family: 'Open Sans', sans-serif;
 }
 
 html{
     font-size: 16px;
 }
+
 /*navbar styling*/
 
 nav{
@@ -38,7 +38,7 @@ nav a{
  }
  nav a span strong{
      font-size: 1.5rem;
-     color: #303030;
+     color: hsl(0,0%,20%);
  }
 #link-container{
     display: flex;
@@ -58,7 +58,7 @@ nav a{
     }
 .flex-item-nav a{
     text-decoration: none;
-    color: #303030;
+    color: hsl(0,0%,20%);
     }
 
 /*banner section styling*/
@@ -91,7 +91,7 @@ nav a{
     height:fit-content; 
     width: 100%;
     font-size: 3rem;
-    color: #303030;
+    color: hsl(0,0%,20%);
     text-align: left;
     font-weight: bolder;
     margin-bottom: 7.5%;
@@ -100,7 +100,7 @@ nav a{
     height: fit-content;
     width: 100%;
     font-size: 2rem;
-    color: #303030;
+    color: hsl(0,0%,20%);
     text-align: left;
     margin-bottom: 7.5% 
 }
@@ -109,13 +109,113 @@ nav a{
     width: 100%;
     font-size: 1rem;
     line-height: 1.5rem;
-    background-color: #303030;
+    background-color: hsl(0,0%,20%);
     color: white;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
 }
 
+/*practice section styling*/
+
+.read-more {
+color: hsl(200, 100%, 55%);
+text-decoration: none;
+}
+#practice-section{
+    position: relative;
+    top: 4rem;
+    left: 0;
+    height: auto;
+    width: 100%;
+    padding: 2rem 0 2rem 1.5rem;
+    display: flex;
+}
+#practice-left-side-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: mistyrose;
+}
+#practice-left-side-container img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    padding-right: 1.5rem;
+
+}
+#practice-left-side-container h1{
+    width: 100%;
+    height: fit-content;
+    font-size: 2rem;
+    background-color: lightgreen;
+    color: hsl(0,0%,20%);
+}
+#practice-left-side-container p{
+    width: 100%;
+    height: fit-content;
+    background-color: lightskyblue;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#practice-left-side-container h4{
+    width: 100%;
+    height: fit-content;
+    background-color: mediumaquamarine;
+    font-weight: normal;
+    font-style: italic;
+}
+#practice-right-side-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 40%;
+    background-color: mediumslateblue;
+    border-left: ;
+}
+#tile{
+    background-color: lightcyan;
+    width: 100%;
+    height: fit-content;
+    margin: 1rem;
+    display: flex;
+}
+#tile img{
+    width: 35%;
+    height: auto;
+    margin-right: 1rem;
+}
+#tile-text-container{
+    background-color: lightcoral;
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: hsl(0,0%,20%)
+}
+#tile-text-container h2{
+    background-color: khaki;
+    height: fit-content;
+    width: 100%;
+    font-size: 1.25rem;
+}
+#tile-text-container h3{
+    background-color: hotpink;
+    height: fit-content;
+    width: 100%;
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+#tile-text-container div{
+    background-color: greenyellow;
+    height: fit-content;
+    width: 100%;
+}
+#tile-text-container h3 a{
+    text-decoration: none;
+    color: hsl(0,0%,20%)
+}
 
 
 
