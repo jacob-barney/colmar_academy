@@ -74,9 +74,12 @@ nav a{
     display: flex;
     flex-direction: row;
 }
+#img-container{
+    width: 60%;
+}
 #banner-section img{  
     height: auto;
-    width: 60%;
+    width: 100%;
     margin-right:1.5rem;
 }
 #banner-text-container{
@@ -130,38 +133,34 @@ text-decoration: none;
     width: 100%;
     padding: 2rem 0 2rem 1.5rem;
     display: flex;
+    background-color: hsl(0,0%,95%);
 }
 #practice-left-side-container{
     display: flex;
     flex-direction: column;
     width: 60%;
-    background-color: mistyrose;
 }
 #practice-left-side-container img{
     width: 100%;
     height: auto;
     margin-bottom: 2rem;
     padding-right: 1.5rem;
-
 }
 #practice-left-side-container h1{
     width: 100%;
     height: fit-content;
     font-size: 2rem;
-    background-color: lightgreen;
     color: hsl(0,0%,20%);
 }
 #practice-left-side-container p{
     width: 100%;
     height: fit-content;
-    background-color: lightskyblue;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 #practice-left-side-container h4{
     width: 100%;
     height: fit-content;
-    background-color: mediumaquamarine;
     font-weight: normal;
     font-style: italic;
 }
@@ -170,23 +169,29 @@ text-decoration: none;
     flex-direction: column;
     height: fit-content;
     width: 40%;
-    background-color: mediumslateblue;
-    border-left: ;
+    border-left: 1px solid hsl(0,0%,75%);
 }
-#tile{
-    background-color: lightcyan;
+.tile{
     width: 100%;
     height: fit-content;
-    margin: 1rem;
+    padding: 1rem;
     display: flex;
 }
-#tile img{
+#tile-orientation{
+    border-bottom: 3px solid hsl(0,0%,75%);
+}
+#tile-campus{
+    background-color: hsl(0, 0%, 100%);
+}
+#tile-lecture{
+    background-color: lightgray;
+}
+.tile img{
     width: 35%;
     height: auto;
     margin-right: 1rem;
 }
-#tile-text-container{
-    background-color: lightcoral;
+.tile-text-container{
     width: 65%;
     height: auto;
     display: flex;
@@ -194,25 +199,22 @@ text-decoration: none;
     justify-content: space-evenly;
     color: hsl(0,0%,20%)
 }
-#tile-text-container h2{
-    background-color: khaki;
+.tile-text-container h2{
     height: fit-content;
     width: 100%;
     font-size: 1.25rem;
 }
-#tile-text-container h3{
-    background-color: hotpink;
+.tile-text-container h3{
     height: fit-content;
     width: 100%;
     font-size: 0.85rem;
     font-weight: normal;
 }
-#tile-text-container div{
-    background-color: greenyellow;
+.tile-text-container div{
     height: fit-content;
     width: 100%;
 }
-#tile-text-container h3 a{
+.tile-text-container h3 a{
     text-decoration: none;
     color: hsl(0,0%,20%)
 }
