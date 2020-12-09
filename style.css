@@ -22,6 +22,7 @@ nav{
     align-items: center;
     padding: 2rem 1.5rem;
     z-index: 1;
+    border-bottom: 1px solid hsl(0,0%,20%);
 }
 nav a{  
     display: flex;
@@ -219,6 +220,72 @@ text-decoration: none;
     color: hsl(0,0%,20%)
 }
 
+/* learning section styling */
+
+#learning-section{
+    position: relative;
+    top: 4rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(0,0%,90%);
+}
+#learning-section h1{
+    font-weight: bolder;
+    color: hsl(0,0%,20%);
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+#course-grid-container{
+    width: 100%;
+    height: auto;
+    padding: 2rem 4.5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.course-tile{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 10px 6px -6px #777;
+}
+.course-tile img{
+    width: 100%;
+    height: auto;
+}
+.field{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(0,0%,25%);
+}
+.courses{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    color: hsl(0,0%,50%);
+}
+.names{
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    color: hsl(0,0%,50%);
+}
 
 
 
