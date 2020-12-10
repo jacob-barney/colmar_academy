@@ -8,10 +8,12 @@
 </head>
 <body>
 
+<!-- desktop html-->
+
     <!--navbar section-->
 
-    <nav>
-        <a href="#"><img src="resources\capstone_colmar_assets\images\ic-logo.svg" alt="">
+    <nav class="desktop">
+        <a href="#"><img src="resources\capstone_colmar_assets\images\ic-logo.svg" alt="logo">
             <span><strong>COLMAR</strong>ACADEMY</span>
         </a>
         <ul id="link-container" class="flex-container-links">
@@ -24,7 +26,7 @@
 
     <!--banner section-->
 
-    <section id="banner-section">
+    <section id="banner-section" class="desktop">
         <div id="img-container">
             <img src="resources\capstone_colmar_assets\images\banner.jpg" alt="studious students studying">
         </div>
@@ -37,7 +39,7 @@
 
     <!--practice section-->
 
-    <section id="practice-section">
+    <section id="practice-section" class="desktop">
         <div id="practice-left-side-container">
             <img src="resources\capstone_colmar_assets\images\information-main.jpg" alt="young man reading">
             <h1>It doesn't hurt to keep practicing</h1>
@@ -81,7 +83,7 @@
 
 <!-- learning section-->
 
-    <section id="learning-section">
+    <section id="learning-section" class="desktop">
         <h1>Start learning</h1>
         <div id="course-grid-container">
             <div class="course-tile">
@@ -125,7 +127,7 @@
 
     <!-- thesis section -->
 
-    <section id="thesis-section">
+    <section id="thesis-section" class="desktop">
         <h1 id="thesis-h1">Thesis exhibit</h1>
             <div id="flex-container">
                 <div id="left-side-flex-container">
@@ -160,9 +162,32 @@
 
     <!-- footer -->
 
-    <footer>
+    <footer class="desktop">
         <span id="ca">2016 Colmar Academy. All rights reserved</span><span id="privacy">Privacy</span><span id="terms">Terms</span>
     </footer>
+
+<!-- end desktop html-->
+
+<!-- start mobile html-->
+
+    <!-- navbar -->
+
+    <nav>
+        <img src="resources\capstone_colmar_assets\images\ic-logo.svg" alt="logo">
+        <img src="resources\capstone_colmar_assets\images\ic-on-campus.svg" alt="desk icon">
+        <img src="resources\capstone_colmar_assets\images\ic-online.svg" alt="monitor icon">
+        <img src="resources\capstone_colmar_assets\images\ic-login.svg" alt="person icon">
+    </nav>
+
+    <!-- learn section -->
+
+    <div class="flex-container-column" id="learn-container-mobile">
+        <img id="learn-image" src="resources\capstone_colmar_assets\images\banner.jpg" alt="students studying">
+        <h1 class="text-xlarge">Learn something new everyday</h1>
+        <h2 class="text-large">Lorem ipsum dolor sit amet, consectetur adipiscing elt.</h2>
+        <div id="mobile-start-button"><strong>Start here</strong></div>
+    </div>
+
 
 </body>
 </html>
